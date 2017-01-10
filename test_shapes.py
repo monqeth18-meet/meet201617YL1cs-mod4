@@ -1,12 +1,12 @@
-from rectangle import Rectangle
-#from square import Square
+#from rectangle import Rectangle
+from square import Square
 import turtle
 import time
 
 ###############################
 #         RECTANGLE           #
 ###############################
-
+'''
 my_rect=Rectangle(10,10)
 print('The area of the rectangle is '+str(my_rect.get_area())+'.')
 
@@ -39,5 +39,5 @@ time.sleep(1) #Wait 1 second
 my_square.set_height(100)
 print('Now, the area of the square is '+str(my_square.get_area())+'.')
 time.sleep(1) #Wait 1 second
-'''
+
 turtle.mainloop()
